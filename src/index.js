@@ -126,8 +126,6 @@ function gameOver() {
 function showUp() {
   let delay = setDelay(difficulty);
   const hole = chooseHole(holes);
-  let delay = 0; // TODO: Update so that it uses setDelay()
-  const hole = 0;  // TODO: Update so that it use chooseHole()
   return showAndHide(hole, delay);
 }
 
@@ -149,7 +147,7 @@ function showAndHide(hole, delay){
 
     gameOver();
   }, delay);
-  }, 0); // TODO: change the setTimeout delay to the one provided as a parameter
+  // TODO: change the setTimeout delay to the one provided as a parameter
   return timeoutID;
 }
 
