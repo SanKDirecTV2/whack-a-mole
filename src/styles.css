@@ -12,8 +12,8 @@ html {
 
 h1 {
   text-align: center;
-  font-size: 90px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 100px;
+  font-family: "Arial MS", "Arial", cursive;
   color: white;
   -webkit-text-stroke: 2px black;
 }
