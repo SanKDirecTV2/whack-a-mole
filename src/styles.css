@@ -15,7 +15,7 @@ h1 {
   font-size: 100px;
   font-family: "Arial MS", "Arial", cursive;
   color: white;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 2px rgb(237, 18, 18);
 }
 
 h2 {
@@ -31,7 +31,7 @@ h2 {
 }
 
 #timer{
-    color: white;
+    color: rgb(39, 16, 213);
 }
 
 .grid {
